@@ -1,0 +1,23 @@
+@import "./styles/iconfont.wxss";
+
+page,view,text,swiper,swiper-item,image,navigator{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* 主题颜色
+1.less中存在变量这个知识
+2.原生的css和wxss也是支持这个变量
+*/
+page{
+  /* 定义主题颜色 */
+  --themecolor: #eb4450;
+  /* 定义统一字体大小，假定设计稿大小是375px
+  1.那么存在这样的关系，1px=2rpx
+  2.字体大小14px=28rpx
+  */
+  font-size: 28rpx;
+}
+image{
+  width: 100%;
+}
